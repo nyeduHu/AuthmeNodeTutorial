@@ -160,7 +160,7 @@ sudo nano authmeServer
 ```
 server {
     listen 80;
-    server_name <YourVPSIpAddress>;
+    server_name canary.perfectchef.hu;
     location / {
         proxy_pass http://localhost:3000/;
     }
